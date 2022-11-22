@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #d9f7f8;
+}
+
+
+/* Main div where the content of the qr is stored */
+
+.main {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.Qr-Image {
+    margin-top: 45px;
+    margin: 10px auto;
+
+}
+
+/* The more rounded the better :> */
+.Qr-Image img {
+    border-radius: 04%;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+#main-Title {
+    font-weight: 800;
+}
+
+#paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(156, 156, 156);
+}
+
+
+
